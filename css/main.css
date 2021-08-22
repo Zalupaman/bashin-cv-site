@@ -18,6 +18,11 @@ html {
   }
 }
 
+.nav-item > a > i {
+  font-size: 25px;
+}
+
+
 /**
  * Add .section to every anchored element for scroll margin
  */
@@ -287,4 +292,8 @@ footer a:not(.nav-link) {
   border-radius: 50%;
   background: #f6e05e;
   left: 0;
+}
+
+.carousel-item {
+  max-height: 350px !important;
 }
